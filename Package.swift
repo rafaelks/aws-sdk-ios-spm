@@ -214,7 +214,8 @@ let targets = createTargets()
 let package = Package(
     name: "AWSiOSSDKV2",
     platforms: [
-        .iOS(.v9)
+        .iOS(.v9),
+        .macOS(.v10_10)
     ],
     products: products,
     targets: targets
